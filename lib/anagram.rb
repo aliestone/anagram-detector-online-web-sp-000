@@ -10,7 +10,7 @@ attr_accessor :word
     matches = []
     array.each.do |word|
     matches << word if word.split('').sort == self.word.split('').sort
-    end
+  end
     matches
   end
 
