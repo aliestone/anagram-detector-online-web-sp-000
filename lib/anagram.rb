@@ -6,4 +6,5 @@ attr_accessor :word
     @word = word
     self.match(%w(word))
   end
-  
+
+end
