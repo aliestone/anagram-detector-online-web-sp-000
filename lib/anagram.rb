@@ -4,7 +4,7 @@ attr_accessor :word
 
   def initialize(word)
     @word = word
-    self.match(%w(word))
+    self.match(%w())
   end
 
 end
