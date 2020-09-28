@@ -8,7 +8,7 @@ attr_accessor :word
 
   def match(array)
     matches = []
-    array.each.do |word|
+    array.each do |word|
     matches << word if word.split('').sort == self.word.split('').sort
     end
     matches
